@@ -17,6 +17,11 @@ import CorporateSignUp from "./components/Hackathon/CorporateSignUp.jsx";
 import CorporateHackathonDashboard1 from "./components/Hackathon/CorporateHackathonDashboard1.jsx";
 import HackathonDashboard from "./components/Hackathon/HackathonDashboard.jsx";
 import CreateHackathon from "./components/Hackathon/CreateHackathon.jsx";
+import CompletedHackathon from "./components/Hackathon/CompletedHackathon.jsx";
+import DashboardCorporateProfile from "./components/Hackathon/DashboardCorporateProfile.jsx";
+import RejectedHackathon from "./components/Hackathon/RejectedHackathon.jsx";
+import PendingHackathon from "./components/Hackathon/PendingHackathon.jsx";
+import NextHackathon from "./components/Hackathon/NextHackathon.jsx";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -45,6 +50,23 @@ const router = createBrowserRouter(
 				path="/hackathon-dashboard"
 				element={<HackathonDashboard />}
 			></Route>
+			<Route
+				path="/completed-hackathon"
+				element={<CompletedHackathon />}
+			></Route>
+			<Route
+				path="/corporate-profile"
+				element={<DashboardCorporateProfile />}
+			></Route>
+			<Route
+				path="/rejected-hackathon"
+				element={<RejectedHackathon />}
+			></Route>
+			<Route
+				path="/pending-hackathon"
+				element={<PendingHackathon />}
+			></Route>
+			<Route path="/next-hackathon" element={<NextHackathon />}></Route>
 		</Route>
 	)
 );

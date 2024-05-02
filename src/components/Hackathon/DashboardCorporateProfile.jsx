@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "/avatar.png";
-import CorporateHackathonSidebar from "../CorporateHackathonSidebar";
+import CorporateHackathonSidebar from "./CorporateHackathonSidebar";
 import close from "../../assets/Hackathon/close.png";
 import twoperson from "../../assets/Hackathon/twoperson.png";
 import bannertitle from "../../assets/Hackathon/bannertitle.png";
