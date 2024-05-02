@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "/avatar.png";
-import CorporateHackathonSidebar from "../CorporateHackathonSidebar";
+import CorporateHackathonSidebar from "./CorporateHackathonSidebar";
 import close from "../../assets/Hackathon/close.png";
 import twoperson from "../../assets/Hackathon/twoperson.png";
 import bannertitle from "../../assets/Hackathon/bannertitle.png";
@@ -9,7 +9,7 @@ import time from "../../assets/Hackathon/time.png";
 import bannersize from "../../assets/Hackathon/bannersize.png";
 import edit from "../../assets/Hackathon/edit.png";
 
-function CorporateHackathonDashboard2() {
+function CreateHackathon() {
 	return (
 		<div className="h-screen flex overflow-hidden">
 			<CorporateHackathonSidebar />
@@ -188,4 +188,4 @@ function CorporateHackathonDashboard2() {
 	);
 }
 
-export default CorporateHackathonDashboard2;
+export default CreateHackathon;

@@ -1,7 +1,7 @@
 import React from "react";
 import avatar from "/avatar.png";
 import profileComletion from "/profileCompletion.png";
-import CorporateHackathonSidebar from "../CorporateHackathonSidebar";
+import CorporateHackathonSidebar from "../Hackathon/CorporateHackathonSidebar";
 import mock from "/mock.png";
 import start from "/start.png";
 import pack from "/pack.png";
@@ -21,7 +21,6 @@ import sector from "../../assets/Hackathon/sector.png";
 import location from "../../assets/Hackathon/location.png";
 import level from "../../assets/Hackathon/level.png";
 import bottom from "../../assets/Hackathon/bottom.png";
-import LeaderBoard from "../Dashboard/LeaderBoard";
 import { Outlet } from "react-router";
 
 function CorporateHackathonDashboard1() {

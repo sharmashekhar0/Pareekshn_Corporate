@@ -1,7 +1,7 @@
 import React from "react";
 import avatar from "/avatar.png";
 import profileComletion from "/profileCompletion.png";
-import CorporateHackathonSidebar from "../CorporateHackathonSidebar";
+import CorporateHackathonSidebar from "./CorporateHackathonSidebar";
 import mock from "/mock.png";
 import start from "/start.png";
 import pack from "/pack.png";
@@ -27,7 +27,7 @@ import top from "../../assets/Hackathon/top.png";
 import avatarHackathon from "../../assets/Hackathon/avatar.png";
 import downloadhack from "../../assets/Hackathon/downloadhack.png";
 
-function CorporateHackathonDashboard3() {
+function HackathonDashboard() {
 	return (
 		<div className="min-h-screen flex">
 			{/* LeftSide */}
@@ -263,7 +263,9 @@ function CorporateHackathonDashboard3() {
 														alt=""
 														className="h-7"
 													/>
-													<span className="font-medium">Download CV</span>
+													<span className="font-medium">
+														Download CV
+													</span>
 												</div>
 											</div>
 										</div>
@@ -282,4 +284,4 @@ function CorporateHackathonDashboard3() {
 	);
 }
 
-export default CorporateHackathonDashboard3;
+export default HackathonDashboard;
