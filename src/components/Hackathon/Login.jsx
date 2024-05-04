@@ -6,6 +6,7 @@ import { VscEye } from "react-icons/vsc";
 import { LuSquareAsterisk } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import { FaCircleExclamation } from "react-icons/fa6";
+import ApiResponse from "../ApiResponse";
 
 function Login() {
 	return (
@@ -94,6 +95,7 @@ function Login() {
 					</Link>
 				</div>
 			</form>
+			<ApiResponse message={"Api Response"} />
 		</div>
 	);
 }
